@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    /* background-color: #dfe3e1; */
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav  {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Header */
+.nav-bar{
+    margin: 1em;
+    left: 2em;
+    right: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    position: absolute;
+    /* text-align: center; */
+    z-index: 100;
+}
+
+
+nav ul {
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a {
+ font-weight: 900;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 0.95rem;
+ padding: 0.75em; 
+ color: 	#000000
+ /* padding helps the clickable are be bogger especially on mobile */
+ /* background: ; */
+}
+
+nav a:hover,
+nav a:focus {
+    color: #708090;
+}
+
+@media (max-width:60rem) {
+    nav a {
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        padding: 0.5em; 
+        color: 	#000000
+        /* padding helps the clickable are be bogger especially on mobile */
+        /* background: ; */
+       }
+    .nav-bar {
+        padding: 0;
+    }
+    nav li {
+        margin: 0.5em;
+    }
+    .logo {
+        padding-top: 20px;
+        z-index: inherit;
+        width: 150px;
+    }
+}
+
+
+/* @media (min-width:25rem) {
+    .nav-bar {
+        padding: 0;
+    }
+    nav li {
+        margin: 0.5em;
+    }
+} */
+
+
+/* hero-section */
+/* 
+img {
+    max-width: 100%;
+    height: auto;
+    z-index: inherit;
+} */
+
+/* .container {
+    margin-top: 5em;
+} */
+
+.logo {
+    padding-top: 20px;
+    z-index: inherit;
+    width: 385px;
+}
+
+/* home-hero  */
+
+.home-hero {
+    z-index: 0;
+    /* margin-top: 100px; */
+    /* height: 500px; */
+    /* background-color: aqua; */
+    background-image: url(/assets/img/hero_bg.jpg);
+    padding: 5em 0;
+    background-color: #dfe3e1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+@media (min-width: 60rem) {
+    .home-hero {
+        height:100vh;
+        padding-top: 20vh;
+    }
+}   
+
+
+.landing-text {
+    padding-bottom: 15px;
+    font-size: 1.25em;
+    z-index: inherit;
+}
+
+.button {
+    display: inline-block;
+    font-size: 0.5 rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+    /* color: #FFB6C1; */
+    padding: .5em 1.75em;
+    z-index: inherit;
+}
+
+@media (min-width: 60rem) {
+    .button {
+        font-size: 1rem;
+    }
+}
+
+.container {
+    width: 100%;
+    margin: 2em auto;
+    z-index: 0;
+}
+
+/* typography */
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+p {
+    text-align: justify;
+}
+
+
+.home-about {
+    display: flex;
+    background-color: #fbfbff;
+    padding-left:1rem;
+    padding-right:1rem;
+    /* border-bottom: solid 1px #FFB6C1; */
+    /* border-top: solid 1px #FFB6C1; */
+}
+
+/* hero-home */
+.home-about-textbox{
+    background-color:  	#f2c4ce;
+    /* background-color: #fbfbff; */
+    /* background-color:  	#f3f1f4; */
+    padding: 4em;
+    width: 100vw;
+    /* outline: 2px solid #cfb8a4; */
+    outline: 2px solid #000;
+    outline-offset: -2.5em;
+    /* margin-left: -2.5%; */
+    /* margin-top: 2px; */
+    position: relative;
+    top: -2.5em;
+    /* left: 8em; */
+    /* margin-bottom: 5px; */
+    
+}
+
+
+.home-about-textbox h1 {
+    /* color: #cfb8a4; */
+    color: black;
+    font-weight: 300;
+    position: absolute;
+    top: .27em;
+    left:  3.25rem; 
+    /* moves left of object to 50% */
+    transform: translateX(0);
+    /* moves it back by half of itself  */
+    /* background-color: #fbfbff; */
+    /* background-color:  	#f3f1f4; */
+    background-color:  	#f2c4ce;
+    padding: 0 0.25em;
+    font-weight: 500;
+}
+
+
+.portfolio-about {
+    display: flex;
+    /* background-color:  	#f3f1f4; */
+    background-color: #fbfbff;
+    padding:1rem;
+    margin-top: 0;
+    /* border-bottom: solid 1px #FFB6C1; */
+    /* border-top: solid 1px #FFB6C1; */
+}
+
+/* hero-home */
+.portfolio-about-textbox{
+    background-color:  	#f3f1f4;
+    /* background-color: #fbfbff; */
+    /* background-color: #fbfbff; */
+    padding: 4em;
+    width: 100vw;
+    /* outline: 2px solid #000; */
+    outline: 2px solid #cfb8a4;
+    outline-offset: -2.5em;
+    /* margin-left: -2.5%; */
+    /* margin-top: 2px; */
+    position: relative;
+    top: -2.5em;
+    /* left: 4em; */
+    margin-bottom: 10px;
+    margin-top: 0;
+    
+}
+
+
+.portfolio-about-textbox h1 {
+    color: #cfb8a4;
+    /* color: black; */
+    position: absolute;
+    top: .27em;
+    right:  3.5rem; 
+    /* moves left of object to 50% */
+    transform: translateX(0);
+    /* moves it back by half of itself  */
+    /* background-color: #fbfbff; */
+    background-color:  	#f3f1f4;
+    padding: 0 0.25em;
+    font-weight: 500;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 4px 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 4px 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+.contact {
+    padding:0;
+    margin-bottom: 2px;
+}
+
+.footer {
+    display: flex;
+    background-color: #fbfbff;
+    padding-left:1rem;
+    padding-right:1rem;
+    margin-bottom: -1%;
+    /* border-bottom: solid 1px #FFB6C1; */
+    /* border-top: solid 1px #FFB6C1; */
+}
+
+/* hero-home */
+.footer-textbox{
+    background-color:  	#f2c4ce;
+    /* background-color: #fbfbff; */
+    padding: 4em;
+    width: 100vw;
+    /* outline: 2px solid #cfb8a4; */
+    outline: 2px solid #000;
+    outline-offset: -2.5em;
+    /* margin-left: -2.5%; */
+    /* margin-top: 2px; */
+    position: relative;
+    top: -3.5em;
+    /* left: 8em; */
+    
+    
+}
+
+.footer-textbox h1 {
+    /* color: #cfb8a4; */
+    color: black;
+    position: absolute;
+    top: .27em;
+    left:  3.5rem; 
+    /* moves left of object to 50% */
+    transform: translateX(0);
+    /* moves it back by half of itself  */
+    /* background-color: #fbfbff; */
+    /* background-color:  	#f3f1f4; */
+    background-color:  	#f2c4ce;
+    padding: 0 0.25em;
+    font-weight: 500;
+}
+
+.footer-textbox p {
+    text-align: center;
+}
