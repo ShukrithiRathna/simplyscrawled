@@ -1,103 +1,368 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Page Title-->
     <title>simply scrawled</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/custom.css">
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <!-- <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/> -->
+    
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Color CSS -->
+    <link rel="stylesheet" href="css/color.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    
-<div class="nav-bar">
-    <nav>
-        <!-- <a href="" class="brand-icon"><img src="brand-name.svg" style="width: 120px;"></a> -->
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <!-- <a href="" class="brand-icon"><img src="brand-name.svg" style="width: 120px;"></a> -->
-    </nav>
-</div>
-    
-<!-- <div class="nav-wrapper">
-    <a href="">Home</a>
-    <a href="">Contact</a>
-    <a href="">About</a>
-</div> -->
 
-<section class="home-hero">
-    <div class="container">
-        <img src="logo.svg" class="logo">
-        <!-- <p> - Hand-lettered with love - </p> -->
-        <h1 class="landing-text">Custom novelty items, handlettered with love </h1>
-        <a href="" class="button button-landing">See products</a> 
-    </div>
-<a id="about">
-</section>
-
-<div class="home-about">
-    <div class="home-about-textbox">
-        <h1>About</h1>
-        <p><strong>simply scrawled</strong> was created as an endeavour to showcase my passion for lettering and my love for giving hand-made, personalized gifts. </p>
-        <p>All items are unique, hand-lettered and cannot be exactly replicated. Items shown below are for illustration purposes only. Get inspired to come up with the perfect customized gift for your friends, family or even yourself! </p>
-        <!-- <p><strong>Loren Ipsum</strong> Loren Ipsum</p> -->
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 </div>
-</a>
-          
+<!--End of Preloader-->
 
-<div class="portfolio-about">
-    <div class="portfolio-about-textbox">
-        <h1>Some of my work</h1>
-        <p></p>
-        
-        
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
 
-        <div class="row"> 
-            <div class="column">
-                <img src="assets/img/perfect_main.jpg" style="width:100%">
-                <img src="assets/img/plan_main.jpg" style="width:100%">
-                <img src="assets/img/moon.png" style="width:100%">
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <a href="#"><img src="images/brand-name.svg" id="banner-logo" alt="Landing Page"/></a>
+                        <!--End of Banner Logo-->
+
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <a href="#"><img src="images/brand-name.svg" id="navigation-logo" alt="Landing Page"/></a>
+                        <!--End of Navigation Logo-->
+
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+
+                        <!--Social Icons in Header-->
+                        <ul class="social-icons">
+                            <li>
+                                <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                                    <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Google+" href="http://google.com/+username">
+                                    <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                                    <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                                    <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="behance" href="http://www.behance.net">
+                                    <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--End of Social Icons in Header-->
+
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner-content">Home</a>
+                            </li>
+                            <li>
+                                <a href="#gallery">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#blog">Blog</a>
+                            </li>
+                           
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
             </div>
-            <div class="column">
-                <img src="assets/img/butterfly_main.jpg" style="width:100%">
-                <img src="assets/img/teacher-name-plate_main.jpg" style="width:100%">
-                <img src="assets/img/b_main.jpg" style="width:100%">
-            </div> 
+        </div><!--End of Header-->
 
-            <div class="column">
-                <img src="assets/img/zodiac-kechain_main.jpg" style="width:100%">
-                <img src="assets/img/baker.jpg" style="width:100%">
-                <img src="assets/img/vadivelu_main.jpg" style="width:100%">
-            </div>
-            <div class="column">
-                <img src="assets/img/dog_main.jpg" style="width:100%">
-                <img src="assets/img/carpe-diem_main.jpg" style="width:100%">
-                <img src="assets/img/pineapple.png" style="width:100%">
-            </div>
-        </div> 
-    </div>
-</div>
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
 
-<a id="contact">
-<div class="footer">
-    <div class="footer-textbox">
-        <h1>Contact</h1>
-        <!-- <h1 class="landing-text">Custom novelty items, handlettered with love </h1> -->
-        <p>To place orders,
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <img src="images/logo.svg" class="landing-logo">
+                    <h2><strong>Hand-lettered with love</strong></h2>
+                </div>
+
+                <!--Call to Action-->
+                <a href="#" class="button">SEE PRODUCTS</a>
+                <!--End Call to Action-->
+
+            </div>
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
         
-        Whatsapp: _____ 
-        Email: <strong>simplyscrawled.2021@gmail.com</strong>.
-        Please place your orders atleast <strong>2-3 weeks </strong>in advance.</p>
-        <p>"Social Media Icons TBA"</p>
-       
-    </div>
-    <!-- <a href="" class="button button-landing">Back to Top</a>  -->
+        <!--Gallery-->
+        <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
+                data-featherlight-filter="a">
+                
+                <div class="section-heading">
+                    <h3>THE HANDMADE STUFF</h3>
+                    <h2 class="section-title">My work</h2>
+                </div>
+
+                <a href="images/perfect_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.5s"><img src="images/perfect_main.jpg" alt="Landing Page"/></a>
+                <a href="images/zodiac-kechain_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.1s"><img src="images/zodiac-kechain_main.jpg" alt="Landing Page"/></a>
+               
+               
+               
+                <a href="images/teacher-name-plate_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.5s"><img src="images/teacher-name-plate_main.jpg" alt="Landing Page"/></a>
+                
+                <a href="images/butterfly_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.3s"><img src="images/butterfly.jpg" alt="Landing Page"/></a>
+                               
+                <a href="images/baker-magnet_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.1s"><img src="images/baker.jpg" alt="Landing Page"/></a>
+                             
+             
+                <a href="images/carpe-diem_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.3s"><img src="images/carpe.jpg" alt="Landing Page"/></a>
+             
+                <a href="images/coffee.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.1s"><img src="images/coffee.jpg" alt="Landing Page"/></a>
+                           
+                <a href="images/h1.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.5s"><img src="images/h1.jpg" alt="Landing Page"/></a>
+
+                <a href="images/h1.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.5s"><img src="images/h1.jpg" alt="Landing Page"/></a>
+
+                <a href="images/coffee.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.1s"><img src="images/b_main.jpg" alt="Landing Page"/></a>
+                           
+                <a href="images/h1.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.5s"><img src="images/vadivelu_main.jpg" alt="Landing Page"/></a>
+
+                <a href="images/h1.jpg" data-featherlight="image" class="col-3 wow fadeIn"
+                data-wow-delay="0.5s"><img src="images/moon.png" alt="Landing Page"/></a>
+
+
+
+
+        </aside>
+        <!--End of Gallery-->
+
+
+        <!--Content Section-->
+        <div id="about" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+
+
+                <!--Content Left Side-->
+                <div class="col-3">
+                   
+                </div>
+                <!--End Content Left Side-->
+
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>BELIEVING</h3>
+                        <h2 class="section-title">About</h2>
+                    </div>
+                    <p><strong>simply scrawled</strong> was created as an endeavour to showcase my passion for lettering and my love for giving hand-made, personalized gifts.
+                    <br>
+                    <br>    
+                    All items are unique, hand-lettered and cannot be exactly replicated. Items shown below are for illustration purposes only. Get inspired to come up with the perfect customized gift for your friends, family or even yourself! 
+                    
+                    </p>
+                </div>
+                <!--End Content Right Side-->
+
+                <!-- <div class="col-3">
+                    <img src="images/moon.png" alt="Dancer"/>
+                </div> -->
+
+            </div>
+
+
+        </div>
+        <!--End of Content Section-->
+
+        <!--Pricing Tables-->
+        <section id="blog" class="secondary-color text-center scrollto clearfix ">
+            <div class="row clearfix">
+
+                <div class="section-heading">
+                    <h3>THE BLOG</h3>
+                    <h2 class="section-title">We have the right package for you</h2>
+                </div>
+
+                <!--Pricing Block-->
+                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="pricing-block-content">
+                        <h3>The Black, White and Grey</h3>
+                        <p class="pricing-sub">The standard version</p>
+                        <div class="pricing">
+                            <img src="images/black.jpg" alt="" width="250px">
+                        </div>
+                        <div class="article-intro">
+                            <p>That single person who is everything we hope to be in the future doesn’t really exist anymore. Instead, we pick out little bits and pieces from different people and put them all together to make that one person, we consider our ideal self.</p>
+                        </div>
+                        <a href="#" class="button">CONTINUE READING</a>
+                    </div>
+                </div>
+                <!--End Pricing Block-->
+
+                <!--Pricing Block-->
+                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="pricing-block-content">
+                        <h3>The Black, White and Grey</h3>
+                        <p class="pricing-sub">The standard version</p>
+                        <div class="pricing">
+                            <img src="images/black.jpg" alt="" width="250px">
+                        </div>
+                        <div class="article-intro">
+                            <p>That single person who is everything we hope to be in the future doesn’t really exist anymore. Instead, we pick out little bits and pieces from different people and put them all together to make that one person, we consider our ideal self.</p>
+                        </div>
+                        <a href="#" class="button">CONTINUE READING</a>
+                    </div>
+                </div>
+                <!--End Pricing Block-->
+
+                <!--Pricing Block-->
+                <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="pricing-block-content">
+                        <h3>The Black, White and Grey</h3>
+                        <p class="pricing-sub">The standard version</p>
+                        <div class="pricing">
+                            <img src="images/black.jpg" alt="" width="250px">
+                        </div>
+                        <div class="article-intro">
+                            <p>That single person who is everything we hope to be in the future doesn’t really exist anymore. Instead, we pick out little bits and pieces from different people and put them all together to make that one person, we consider our ideal self.</p>
+                        </div>
+                        <a href="#" class="button">CONTINUE READING</a>
+                    </div>
+                </div>
+                <!--End Pricing Block-->
+                <a href="#" class="button">Visit Blog</a>
+            </div>
+        </section>
+        <!--End of Pricing Tables-->
+
+    </main>
+    <!--End Main Content Area-->
+
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <p id="copyright" class="col-2">simplyscrawled.2021@gmail.com</p>
+           <!-- <p>simplyscrawled.2021@gmail.com</p></p> -->
+
+            <!--Social Icons in Footer-->
+            <ul class="col-2 social-icons">
+                <li>
+                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Google+" href="http://google.com/+username">
+                        <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                    </a>
+                </li> -->
+                <li>
+                    <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a target="_blank" title="behance" href="http://www.behance.net">
+                        <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                    </a>
+                </li> -->
+            </ul>
+            <!--End of Social Icons in Footer-->
+        </div>
+    </footer>
+    <!--End of Footer-->
+
 </div>
-</a>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
 
 </body>
 </html>
