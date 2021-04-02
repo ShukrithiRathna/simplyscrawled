@@ -55,7 +55,7 @@ a:hover, #header.nav-solid nav a:hover {
     background: #d2b356;
 }
 
-.pricing-block-content:hover {
+.blog-post-content:hover {
     border-color:#d2b356;
 }
 
@@ -95,11 +95,11 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Primary Background and Text Colors */
 
-.primary-color, .featured .pricing {
+.primary-color, .featured .blog-post {
     background-color:#d2b356;
 }
 
-.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .blog-post, .featured .blog-post p {
     color:#fff;    
 }
 
