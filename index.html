@@ -1,432 +1,582 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
+<html lang="en">
 
-    <!--Page Title-->
-    <title>simply scrawled</title>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!--Meta Keywords and Description-->
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <title>simply scrawled</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-       
-    <!-- Main CSS Files -->
-    <link rel="stylesheet" href="css/style.css">
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
-    <!-- Color CSS -->
-    <link rel="stylesheet" href="css/color.css">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
-    <!--Icon Fonts - Font Awesome Icons-->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Animate CSS-->
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
-
-    <!--Google Webfonts-->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <!-- =======================================================
+  * Template Name: MyPortfolio - v4.10.0
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
 
-<!-- Preloader -->
-<div id="preloader">
-    <div id="status" class="la-ball-triangle-path">
-        <div></div>
-        <div></div>
-        <div></div>
+  <!-- ======= Navbar ======= -->
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+        <div class="col-md-2">
+          <ul class="custom-menu">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 d-none d-md-block  mr-auto">
+          <div class="tweet d-flex">
+            <span class="bi bi-twitter text-white mt-2 mr-3"></span>
+            <div>
+              <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
+                  officiis explicabo inventore. <br> <a href="#">t.co/v82jsk</a></em></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+          <h3>Hire Me</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
+            officiisexplicabo inventore. <br> <a href="#">myemail@gmail.com</a></p>
+        </div>
+      </div>
+
     </div>
-</div>
-<!--End of Preloader-->
+  </div>
 
-<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
-    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
-    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
-    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
-    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
-</div>
+  <!-- <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="clean_images/brand_name_proper.png"></a>
+      <a class="navbar-brand" href="index.html"><img class="img-fluid" src="clean_images/brand_name_proper.png"></a>
+        <span></span>
+      </a>
+    </div>
+  </nav> -->
 
-<div id="wrapper">
+  <main id="main">
 
-    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
-        <div id="header" class="nav-collapse">
-            <div class="row clearfix">
-                <div class="col-1">
+    <!-- ======= Testimonials Section ======= -->
+    <section class="section pt-0">
+      <div class="container">
 
-                    <!--Logo-->
-                    <div id="logo">
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
 
-                        <!--Logo that is shown on the banner-->
-                        <a href="#"><img src="images/brand-name.svg" id="banner-logo" alt="Landing Page"/></a>
-                        <!--End of Banner Logo-->
-
-                        <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <a href="#"><img src="images/brand-name.svg" id="navigation-logo" alt="Landing Page"/></a>
-                        <!--End of Navigation Logo-->
-
-                    </div>
-                    <!--End of Logo-->
-
-                    <aside>
-
-                        <nav id="nav-main">
-                            <ul>
-                                <li>
-                                    <a href="#banner-content">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#about">About</a>
-                                </li>
-                                <li>
-                                    <a href="#gallery">Gallery</a>
-                                </li>
-                                <li>
-                                    <a target="https://www.instagram.com/simplyscrawled/" title="Instagram" href="https://www.instagram.com/simplyscrawled/">
-                                        <i class="fa fa-instagram fa-1x"></i><span> </span>
-                                    </a>
-                                </li>
-                               
-                            </ul>
-                        </nav>
-                        <!--Social Icons in Header-->
-                        <ul class="social-icons">
-                            <!-- <li>
-                                <a target="_blank" title="Facebook" href="#">
-                                    <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                                </a>
-                            </li> -->
-                            <!-- <li>
-                                <a target="simplyscrawled2021@gmail.com" title="Google+" href="#">
-                                    <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
-                                </a>
-                            </li> -->
-                            <!-- <li>
-                                <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
-                                    <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                                </a>
-                            </li> -->
-                            <!-- <li>
-                                <a target="https://www.instagram.com/simplyscrawled/" title="Instagram" href="#">
-                                    <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
-                                </a>
-                            </li> -->
-                            <!-- <li>
-                                <a target="_blank" title="behance" href="http://www.behance.net">
-                                    <i class="fa fa-behance fa-1x"></i><span>Behance</span>
-                                </a>
-                            </li> -->
-                        </ul>
-                        <!--End of Social Icons in Header-->
-
-                    </aside>
-
-                    <!--Main Navigation-->
-                    
-                    <!--End of Main Navigation-->
-
-                    <div id="nav-trigger"><span></span></div>
-                    <nav id="nav-mobile"></nav>
-
+            <div class="swiper-slide">
+              <div class="testimonial-wrap1">
+                <div class="testimonial">
+                  <!-- <img src="clean_images/bg_3.png" alt="Image" class="img-fluid" -->
+                  <!-- <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
+                      officiis
+                      explicabo inventore.</p>
+                  </blockquote> -->
+                  <!-- <p>&mdash; Jean Hicks</p> -->
                 </div>
-            </div>
-        </div><!--End of Header-->
+              </div>
+            </div><!-- End testimonial item -->
 
-        <!--Banner Content-->
-        <div id="banner-content" class="row clearfix">
-
-            <div class="col-38">
-
-                <div class="section-heading">
-                    <img src="images/logo.svg" class="landing-logo">
-                    <h2><strong>Hand-lettered with love</strong></h2>
+            <div class="swiper-slide">
+              <div class="testimonial-wrap2">
+                <div class="testimonial">
+                  
                 </div>
+              </div>
+            </div><!-- End testimonial item -->
 
-                <!--Call to Action-->
-                <a href="#gallery" class="button">SEE PRODUCTS</a>
-                <!--End Call to Action-->
-
-            </div>
-        </div><!--End of Row-->
-    </header>
-
-     
-
-    <!--Main Content Area-->
-    <main id="content">
-        <!--Content Section-->
-     <div id="about" class="scrollto clearfix">
-
-        <div class="row no-padding-bottom clearfix">
-
-
-            <!--Content Left Side-->
-            <div class="col-3">
-              
-            </div>
-            <!--End Content Left Side-->
-
-            <!--Content of the Right Side-->
-            <div class="col-3">
-                <div class="section-heading">
-                    <h3>MY PASSION </h3>
-                    <h2 class="section-title">About</h2>
-                </div>
-                <p><strong>simply scrawled</strong> was created as an endeavour to showcase my passion for writing, lettering and my love for giving hand-made, personalized gifts.
-                <br>
-                <br>    
-                All items are unique, hand-lettered and cannot be exactly replicated. Items shown below are things I've done in the past, and are just to give you some ideas.  I hope you get inspired to come up with the perfect customized gift for your friends, family or even yourself!      
-                <br>
-                <br> 
-                To place an order, please email me at simplyscrawled.2021@gmail.com and I'll get back to you as soon as I can. 
-                <br>
-                <br>
-                Head to my <a target="https://www.instagram.com/simplyscrawled/" title="Instagram" href="https://www.instagram.com/simplyscrawled/"><span>instagram</span></a> page to see products, fun practice videos, tutorials, bloopers and more! Stay tuned to see new products that are simply scrawled!
-            </p>
-                
-            </div>
-            <!--End Content Right Side-->
-
-            <!-- <div class="col-3">
-                <img src="images/moon.png" alt="Dancer"/>
-            </div> -->
-
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
 
+      </div>
+    </section><!-- End Testimonials Section -->
 
-    </div>
-    <!--End of Content Section-->
-
-        <!--Gallery-->
-        <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
-                data-featherlight-filter="a">
-                
-                <div class="section-heading">
-                    <h3>THE HANDLETTERED STUFF</h3>
-                    <h2 class="section-title">My work</h2>
-                </div>
-              
-                <a href="images/getting.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/getting.png" alt="Landing Page"/></a>
-
-                <a href="images/thisisus_01.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/thisisus.png" alt="Landing Page"/></a>
-
-                <a href="images/BANJ.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/BANJ.png" alt="Landing Page"/></a>
-
-                <a href="images/chalkboard2.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/chalkboard.png" alt="Landing Page"/></a>
-
-                <a href="images/MVVN.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/frontdoor.png" alt="Landing Page"/></a>
-
-                <a href="images/Rajni_org.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/Rajni.png" alt="Landing Page"/></a>
-
-                <a href="images/Places_org.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/Places.png" alt="Landing Page"/></a>
-
-                <a href="images/nameboard.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/nameplate.png" alt="Landing Page"/></a>
-
-                <a href="images/HP_org.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/HP.png" alt="Landing Page"/></a>
-
-                <a href="images/makeup.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/makeup.png" alt="Landing Page"/></a>
-
-                <a href="images/coffeemug.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/coffeemug.png" alt="Landing Page"/></a>
-              
-                <a href="images/welcome_sign2.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.1s"><img src="images/welcome_sign.png" alt="Landing Page"/></a>
-                               
-                <a href="images/teacher-name-plate_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.1s"><img src="images/teacher-name-plate_main.png" alt="Landing Page"/></a>
-
-                <a href="images/zodiac-kechain_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.1s"><img src="images/zodiac-kechain_main.png" alt="Landing Page"/></a>   
-
-                <a href="images/baker-magnet_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.5s"><img src="images/baker.png" alt="Landing Page"/></a>
-
-                <a href="images/perfect_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.1s"><img src="images/perfect_main.png" alt="Landing Page"/></a>
-
-                <a href="images/boss.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/boss.png" alt="Landing Page"/></a>
-
-                <a href="images/anesth2.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/anesth.png" alt="Landing Page"/></a>
-                
-                <a href="images/butterfly.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.1s"><img src="images/butterfly.png" alt="Landing Page"/></a>
-                
-                <a href="images/dog_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/dog_main.png" alt="Landing Page"/></a>
-                
-                <a href="images/carpe.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/carpe.png" alt="Landing Page"/></a>
+    <!-- ======= Services Section ======= -->
+    <section class="section services">
       
-                <a href="images/coffee.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/coffee.png" alt="Landing Page"/></a>
-                                                   
-                <a href="images/plan_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.5s"><img src="images/plan.png" alt="Landing Page"/></a>
-                
-                <a href="images/hakuna.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/hakuna.png" alt="Landing Page"/></a>
-                
-                <a href="images/vadivelu_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.5s"><img src="images/vadivelu.png" alt="Landing Page"/></a>
-                                              
-                <a href="images/hustle_01.jpeg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.3s"><img src="images/hustle_01.jpeg" alt="Landing Page"/></a>
-
-                <a href="images/b_main.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.5s"><img src="images/b_main.jpg" alt="Landing Page"/></a>
-       
-                <a href="images/stopdreaming.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.5s"><img src="images/stopdreaming.jpg" alt="Landing Page"/></a>
-
-                <a href="images/hope.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.5s"><img src="images/hope.jpg" alt="Landing Page"/></a>
-                
-                <!-- <a href="images/person_dog.jpg" data-featherlight="image" class="col-3 wow fadeIn"
-                data-wow-delay="0.5s"><img src="images/person_dog.jpg" alt="Landing Page"/></a> -->
-
-
-
-        </aside>
-        <!--End of Gallery-->
-        
-        
-
-        <!--blog-post Tables-->
-        <!-- <section id="blog" class="secondary-color text-center scrollto clearfix ">
-            <div class="row clearfix">
-
-                <div class="section-heading">
-                    <h3>THE BLOG</h3>
-                    <h2 class="section-title">Some recent articles</h2>
-                </div> -->
-
-                <!--blog-post -->
-                <!-- <div class="blog-post col-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="blog-post-content">
-                        <h3>The Black, White and Grey</h3>
-                        <p class="blog-post-sub">The standard version</p>
-                        <div class="blog-post">
-                            <img src="images/black.jpg" alt="" width="250px">
-                        </div>
-                        <div class="article-intro">
-                            <p>That single person who is everything we hope to be in the future doesn’t really exist anymore. Instead, we pick out little bits and pieces from different people and put them all together to make that one person, we consider our ideal self.</p>
-                        </div>
-                        <a href="#" class="button">CONTINUE READING</a>
-                    </div>
-                </div> -->
-                <!--End blog-post -->
-
-                <!--blog-post -->
-                <!-- <div class="blog-post col-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="blog-post-content">
-                        <h3>The Black, White and Grey</h3>
-                        <p class="blog-post-sub">The standard version</p>
-                        <div class="blog-post">
-                            <img src="images/black.jpg" alt="" width="250px">
-                        </div>
-                        <div class="article-intro">
-                            <p>That single person who is everything we hope to be in the future doesn’t really exist anymore. Instead, we pick out little bits and pieces from different people and put them all together to make that one person, we consider our ideal self.</p>
-                        </div>
-                        <a href="#" class="button">CONTINUE READING</a>
-                    </div>
-                </div> -->
-                <!--End blog-post -->
-
-                <!--blog-post -->
-                <!-- <div class="blog-post col-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="blog-post-content">
-                        <h3>The Black, White and Grey</h3>
-                        <p class="blog-post-sub">The standard version</p>
-                        <div class="blog-post">
-                            <img src="images/black.jpg" alt="" width="250px">
-                        </div>
-                        <div class="article-intro">
-                            <p>That single person who is everything we hope to be in the future doesn’t really exist anymore. Instead, we pick out little bits and pieces from different people and put them all together to make that one person, we consider our ideal self.</p>
-                        </div>
-                        <a href="#" class="button">CONTINUE READING</a>
-                    </div>
-                </div> -->
-                <!--End blog-post -->
-                <!-- <a href="#" class="button">Visit Blog Site</a>
-            </div>
-        </section> -->
-        <!--End of blog-post Tables-->
-
-    </main>
-    <!--End Main Content Area-->
-
-
-    <!--Footer-->
-    <footer id="landing-footer" class="clearfix">
-        <div class="row clearfix">
-
-            <p id="copyright" class="col-2"><strong>simply scrawled 2021</strong></p>
-            <!-- <p id="copyright" class="col-2"><i class="fa fa-instagram fa-1x"></i><span> Instagram</span></p> -->
-           <!-- <p>simplyscrawled.2021@gmail.com</p></p> -->
-
-            <!--Social Icons in Footer-->
-            <!-- <ul class="col-2 social-icons">
-                <li>
-                    <a target="_blank" title="Facebook" href="#">
-                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                    </a>
-                </li>-->
-                <!-- <li>
-                    <a target="_blank" title="Google+" href="#">
-                        <i class="fa fa-google-plus fa-1x"></i><span>simplyscrawled.2021@gmail.com</span>
-                    </a>
-                </li>  -->
-                <!-- <li>
-                    <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
-                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                    </a>
-                </li> -->
-                <!-- <li>
-                    <a target="_blank" title="Instagram" href="#">
-                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
-                    </a>
-                </li> -->
-                <!-- <li>
-                    <a target="_blank" title="behance" href="http://www.behance.net">
-                        <i class="fa fa-behance fa-1x"></i><span>Behance</span>
-                    </a>
-                </li> -->
-            </ul>
-            <!--End of Social Icons in Footer-->
+      <div class="container">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col-5">
+            <h3 class="h3 heading">About</h3>
+            <p>simply scrawled was created as an endeavour to showcase my passion for writing, lettering and my love for giving hand-made, personalized gifts. </p>
+          </div>
         </div>
-    </footer>
-    <!--End of Footer-->
+        <div class="row">
 
-</div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <i class="bi bi-heart"></i>
+            <h4 class="h4 mb-2">Hand-lettered with love</h4>
+            <p>All items are unique, hand-lettered and cannot be exactly replicated. Items shown below are things I've done in the past, and are just to give you some ideas. I hope you get inspired to come up with the perfect customized gift for your friends, family or even yourself! </p>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <i class="bi bi-gift-fill"></i>
+            <h4 class="h4 mb-2">Personalized Luxury Gifting</h4>
+            <p>Turn any gift into something extra special. Add a name, a custom-quote or anything else you want!</p>
+            <ul class="list-unstyled list-line">
+              <li>Jewellery Boxes & Makeup Pouches</li>
+              <li>Phone Cases</li>
+              <li>T-Shirts</li>
+              <li>Champagne glasses</li>
+              <li>Quirky Fridge Magnets, Coffee Mugs, and much more</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <i class="bi bi-house-door"></i>
+            <h4 class="h4 mb-2">Custom Home Decor</h4>
+            <p>Home is where the heart is! Spruce up your space and flaunt your decor with custom pieces that match your style. These also make perfect gifts for housewarming celebrations</p>
+            <ul class="list-unstyled list-line">
+              <li>Wooden and Acrylic Signs</li>
+              <li>Name Plates</li>
+              <li>Canvas Pieces</li>
+              <li>Posters</li>
+            </ul>
+          </div>
+         
+          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+            <i class="bi bi-instagram"></i>
+            <h4 class="h4 mb-2">Contact</h4>
+            <p>To place an order, please email me at simplyscrawled.2021@gmail.com and I'll get back to you as soon as I can. Head to my <a href="https://www.instagram.com/simplyscrawled/">instagram</a> page to see products, fun practice videos, tutorials, bloopers and more!</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
 
-<!-- Include JavaScript resources -->
-<script src="js/jquery.1.8.3.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/featherlight.min.js"></script>
-<script src="js/featherlight.gallery.min.js"></script>
-<script src="js/jquery.enllax.min.js"></script>
-<script src="js/jquery.scrollUp.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.stickyNavbar.min.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/images-loaded.min.js"></script>
-<script src="js/lightbox.min.js"></script>
-<script src="js/site.js"></script>
-    
+    <!-- ======= Works Section ======= -->
+    <section class="section site-portfolio">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
+            <h2>My Work</h2>
+            <p class="mb-0">The hand-lettered stuff</p>
+          </div>
+          <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
+            <div id="filters" class="filters">
+              <a href="#" data-filter="*" class="active">All</a>
+              <a href="#" data-filter=".wood">Wood & Acrylic</a>
+              <a href="#" data-filter=".custom">Custom Products</a>
+              <a href="#" data-filter=".canvas">Canvas & Posters</a>
+              <a href="#" data-filter=".magnet">Magnets</a>
+            </div>
+          </div>
+        </div>
+        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Family Name Sign</h3>
+                <span>Acrylic</span>
+              </div>
+              <img class="img-fluid" src="clean_images/BANJ.jpg">
+            </div>
+          </div>
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Welcome Sign</h3>
+                <span>Wood</span>
+              </div>
+              <img class="img-fluid" src="clean_images/welcome_sign2.jpg">
+            </div>
+          </div>
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Room Decor</h3>
+                <span>Wood</span>
+              </div>
+              <img class="img-fluid" src="clean_images/getting.jpg">
+            </div>
+          </div>
+          <div class="item custom col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Zodiac Keychain</h3>
+                <span>Custom Stuff</span>
+              </div>
+              <img class="img-fluid" src="clean_images/zodiac-kechain_main.jpg">
+            </div>
+          </div>
+          <div class="item custom col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Personalized Travel Jewellery Boxes</h3>
+                <span>Custom Stuff</span>
+              </div>
+              <img class="img-fluid" src="clean_images/jewellery_boxes.jpg">
+            </div>
+          </div>
+
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Family Name Sign</h3>
+                <span>Wood</span>
+              </div>
+              <img class="img-fluid" src="clean_images/MVVN.jpg">
+            </div>
+          </div>
+
+          <div class="item magnet col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Quirky Kitchen</h3>
+                <span>Magnets</span>
+              </div>
+              <img class="img-fluid" src="clean_images/kitchen_magnets.jpg">
+            </div>
+          </div>
+
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Home Decor Ensemble</h3>
+                <span>Wood</span>
+              </div>
+              <img class="img-fluid" src="clean_images/this_is_us.jpg">
+            </div>
+          </div>
+
+          <div class="item custom col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Web Developer's Black Coffee Mug</h3>
+                <span>Custom Stuff</span>
+              </div>
+              <img class="img-fluid" src="clean_images/coffeemug.jpg">
+            </div>
+          </div>
+
+          <div class="item custom col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Quirky Makeup Pouch</h3>
+                <span>Custom Stuff</span>
+              </div>
+              <img class="img-fluid" src="clean_images/makeup.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Quote</h3>
+                <span>Poster</span>
+              </div>
+              <img class="img-fluid" src="clean_images/perfect_main.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Quote</h3>
+                <span>Poster</span>
+              </div>
+              <img class="img-fluid" src="clean_images/never_settle.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Thalaivar Mashup</h3>
+                <span>Canvas</span>
+              </div>
+              <img class="img-fluid" src="clean_images/Rajni_org.jpg">
+            </div>
+          </div>
+          <div class="item magnet col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Quirky Baker</h3>
+                <span>Magnets</span>
+              </div>
+              <img class="img-fluid" src="clean_images/baker-magnet_main.jpg">
+            </div>
+          </div>
+
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Room Decor</h3>
+                <span>Chalkboard Signs</span>
+              </div>
+              <img class="img-fluid" src="clean_images/chalkboard2.jpg">
+            </div>
+          </div>
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Name Plate</h3>
+                <span>Wood</span>
+              </div>
+              <img class="img-fluid" src="clean_images/nameboard.jpg">
+            </div>
+          </div>
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Clasroom Decor</h3>
+                <span>Wood</span>
+              </div>
+              <img class="img-fluid" src="clean_images/teacher-name-plate_main.jpg">
+            </div>
+          </div>
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>__</h3>
+                <span>Wood</span>
+              </div>
+              <img class="img-fluid" src="clean_images/nikki.jpg">
+            </div>
+          </div>
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Quirky Bathroom</h3>
+                <span>Wood</span>
+              </div>
+              <img class="img-fluid" src="clean_images/pee_poop.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Dumbledore Says</h3>
+                <span>Canvas</span>
+              </div>
+              <img class="img-fluid" src="clean_images/HP_org.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Custom Quote</h3>
+                <span>Canvas</span>
+              </div>
+              <img class="img-fluid" src="clean_images/Places_org.jpg">
+            </div>
+          </div>
+          <div class="item wood col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>The Boss</h3>
+                <span>Wood</span>
+              </div>
+              <img class="img-fluid" src="clean_images/boss.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Stupid</h3>
+                <span>Chalkboard sign</span>
+              </div>
+              <img class="img-fluid" src="clean_images/stupid.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Heroes</h3>
+                <span>Canvas</span>
+              </div>
+              <img class="img-fluid" src="clean_images/anesth.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Vadivelu Mashup</h3>
+                <span>Canvas</span>
+              </div>
+              <img class="img-fluid" src="clean_images/vadivelu_main.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Coffee</h3>
+                <span>Poster</span>
+              </div>
+              <img class="img-fluid" src="clean_images/coffee.jpg">
+            </div>
+          </div>
+          <div class="item custom col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Inside Out</h3>
+                <span>Makeup Pouch</span>
+              </div>
+              <img class="img-fluid" src="clean_images/pouch.jpg">
+            </div>
+          </div>
+
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Butterfly</h3>
+                <span>Poster</span>
+              </div>
+              <img class="img-fluid" src="clean_images/butterfly.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Seize the Moment</h3>
+                <span>Poster</span>
+              </div>
+              <img class="img-fluid" src="clean_images/carpe.jpg">
+            </div>
+          </div>
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Hakuna Matata</h3>
+                <span>Poster</span>
+              </div>
+              <img class="img-fluid" src="clean_images/hakuna.jpg">
+            </div>
+          </div>
+
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Hustle</h3>
+                <span>Poster</span>
+              </div>
+              <img class="img-fluid" src="clean_images/hustle_01.jpeg">
+            </div>
+          </div>
+
+          <div class="item canvas col-sm-6 col-md-4 col-lg-4 mb-4">
+            <div  class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Hope</h3>
+                <span>Poster</span>
+              </div>
+              <img class="img-fluid" src="clean_images/hope.jpg">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </section><!-- End  Works Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <!-- <section class="section pt-0">
+      <div class="container">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial">
+                  <img src="assets/img/person_1.jpg" alt="Image" class="img-fluid">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
+                      officiis
+                      explicabo inventore.</p>
+                  </blockquote>
+                  <p>&mdash; Jean Hicks</p>
+                </div>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+<!-- 
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial">
+                  <img src="assets/img/person_2.jpg" alt="Image" class="img-fluid">
+                  <blockquote>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut
+                      officiis
+                      explicabo inventore.</p>
+                  </blockquote>
+                  <p>&mdash; Chris Stanworth</p>
+                </div>
+              </div>
+            </div> -->
+            <!-- End testimonial item -->
+
+          <!-- </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <!-- <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row"> -->
+        <!-- <div class="col-sm-6">
+          <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
+          <div class="credits">-->
+        <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
+          -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div> -->
+        <!-- <div class="col-sm-6 social text-md-end">
+          <a href="#"><span class="bi bi-twitter"></span></a>
+          <a href="#"><span class="bi bi-facebook"></span></a>
+          <a href="#"><span class="bi bi-instagram"></span></a>
+          <a href="#"><span class="bi bi-linkedin"></span></a>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
-</html>
 
-yes
+</html>
