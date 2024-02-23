@@ -761,6 +761,30 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       -ms-transform: translateX(-100%);
       transform: translateX(-100%); }
 
+.button {
+        background-color: #f3efed; /* Green */
+        border: none;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+      }
+      .button:hover {
+        background-color: #c6dce6; /* Green */
+        color: black;
+      }
+      .button1 {background-color: white;
+        color: black;
+        border: 2px solid rgb(46, 45, 45); /* Green */
+        border-radius: 6px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+      
 /* circle progress bar*/
 .progressbar {
   display: inline-block;
